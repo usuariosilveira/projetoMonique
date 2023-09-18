@@ -1,0 +1,82 @@
+package Filosofia;
+
+
+
+public class FilosofiaOnline extends PrimeiroBloco {
+
+
+		
+
+		private String modalidade;
+		private int idadeMinima;
+		private int idadeMaxima;
+		private String descricao;
+			
+
+
+
+			public FilosofiaOnline(String modalidade, int idadeMinima, int idadeMaxima, String descricao) {
+            super();
+            this.modalidade = modalidade;
+			this.idadeMinima = idadeMinima;
+			this.idadeMaxima = idadeMaxima;
+			this.descricao = descricao;
+			
+			}
+
+			
+            
+
+
+			public String getModalidade() {
+				return modalidade;
+			}
+
+			public void setModalidade(String modalidade) {
+				this.modalidade = modalidade;
+			}
+
+			public int getIdadeMinima() {
+				return idadeMinima;
+			}
+
+			public void setIdadeMinima(int idadeMinima) {
+				this.idadeMinima = idadeMinima;
+			}
+
+			public int getIdadeMaxima() {
+				return idadeMaxima;
+			}
+
+			public void setIdadeMaxima(int idadeMaxima) {
+				this.idadeMaxima = idadeMaxima;
+			}
+
+			public String getDescricao() {
+				return descricao;
+			}
+
+			public void setDescricao(String descricao) {
+				this.descricao = descricao;
+			}
+
+			
+
+			public void visualizar() {
+
+			System.out.println("Modalidade: " + this.modalidade);
+
+			System.out.println("Idade mínima: " + this.idadeMinima);
+
+			System.out.println("Idade máxima: " + this.idadeMaxima);
+
+			System.out.println("Descrição: " + this.descricao);
+
+			
+
+			}
+
+
+	}
+
+}

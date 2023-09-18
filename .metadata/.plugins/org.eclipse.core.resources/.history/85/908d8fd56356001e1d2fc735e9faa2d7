@@ -1,0 +1,25 @@
+package Filosofia;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) { 
+		FilosofiaAntiga filosofiaAntiga = new FilosofiaAntiga();
+		FilosofiadaReligiao filosofiadaReligiao = new FilosofiadaReligiao();
+		FilosofiadaTecnologia filosofiadaTecnologia = new FilosofiadaTecnologia();
+		FilosofiaModerna filosofiaModerna = new FilosofiaModerna();
+		
+		Scanner ler = new Scanner(System.in);
+		String nome;
+		System.out.println("Digite seu nome");
+		nome = ler.nextLine();
+		
+		
+		
+		System.out.println("Seja bem vindo "+nome+" ao Filosofia Online");
+		// TODO Auto-generated method stub
+
+	}
+
+}

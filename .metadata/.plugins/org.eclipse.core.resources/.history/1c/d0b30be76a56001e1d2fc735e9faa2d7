@@ -1,0 +1,33 @@
+package Filosofia;
+
+public class FilosofiadaTecnologia extends Curso{
+	@Override
+	public void modalidade() {
+	System.out.println("Filosofia da Tecnologia");
+		
+	}
+@Override
+	public void idadeMinima() {
+	int idade;
+	idade=30;
+		
+	}
+@Override
+	public void idadeMaxima() {
+	int idademaxima;
+	idademaxima=80;
+		
+	}
+public void descricao() {
+	if(idadeMinima >= 30 || idadeMinima <= idadeMaxima) {
+		System.out.println("Parabéns voce pode participar do curso de Filosofia Antiga");
+		
+		
+	}
+	else {
+		System.out.println("Infelizmente, voce não pode participar do nosso curso");
+	}
+	
+}
+
+}

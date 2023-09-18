@@ -1,0 +1,59 @@
+package Filosofia;
+
+import java.util.ArrayList;
+import java.util.InputMismatchException;
+import java.util.List;
+import java.util.Scanner;
+
+public abstract class Curso {
+	
+
+
+
+
+	public void modalidade() {
+		
+	}
+
+	public void idadeMinima() {
+		
+	}
+
+	public void idadeMaxima() {
+		
+	}
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+	
+
+
+	
+
+
+
+	
+
+
+
+	
+
+	
+
+
+
+	
+
+
+
+

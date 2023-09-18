@@ -1,0 +1,53 @@
+package Filosofia;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) { 
+		FilosofiaAntiga filosofiaAntiga = new FilosofiaAntiga();
+		FilosofiadaReligiao filosofiadaReligiao = new FilosofiadaReligiao();
+		FilosofiadaTecnologia filosofiadaTecnologia = new FilosofiadaTecnologia();
+		FilosofiaModerna filosofiaModerna = new FilosofiaModerna();
+		
+		Scanner ler = new Scanner(System.in);
+		String nome;
+		int opcao = 0;
+		System.out.println("Digite seu nome");
+		nome = ler.nextLine();
+		
+		
+		
+		System.out.println("Seja bem vindo "+nome+" ao Filosofia Online");
+		System.out.println("Digite número 1 para a opção da Filosofia Antiga");
+		System.out.println("Digite número 2 para a opção da Filosofia da Religiao");
+		System.out.println("Digite número 3 para a opção da Filosofia da Tecnologia");
+		System.out.println("Digite número 4 para a opção da Filosofia Moderna");
+		
+		
+		do { 
+			opcao = ler.nextInt();
+			switch(opcao) {
+			case 1:
+				filosofiaAntiga.modalidade();
+				break;
+				
+			case 2:
+				filosofiadaReligiao.modalidade();
+				break;
+			case 3:
+				filosofiadaTecnologia.modalidade();
+				break;
+			case 4:
+				filosofiaModerna.modalidade();
+				break;
+				default: 
+					System.out.println("Opção Inválida");
+			}
+		} while(opcao != 0) ;
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package Filosofia;
+
+public class FilosofiaAntiga extends Curso{
+@Override
+	public void modalidade() {
+	System.out.println("Filosofia Antiga");
+		
+	}
+@Override
+	public void idadeMinima() {
+	int idadeMinima;
+	idadeMinima=30;
+		
+	}
+@Override
+	public void idadeMaxima() {
+	int idadeMaxima;
+	idadeMaxima=80;
+		
+	}
+}

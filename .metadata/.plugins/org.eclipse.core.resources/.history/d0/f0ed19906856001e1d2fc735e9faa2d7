@@ -1,0 +1,22 @@
+package Filosofia;
+
+public class FilosofiadaReligiao extends Curso{
+	@Override
+	public void modalidade() {
+	System.out.println("Filosofia da Religiao");
+		
+	}
+@Override
+	public void idadeMinima() {
+	int idade;
+	idade=30;
+		
+	}
+@Override
+	public void idadeMaxima() {
+	int idademaxima;
+	idademaxima=80;
+		
+	}
+
+}
